@@ -1,0 +1,62 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - Moin
+    - hey there
+    - hey student
+    - hello student
+
+- intent: syllabus_quest
+  examples: |
+    - I want the syllabus
+    - What is the syllabus of this subject?
+    - Can I know the syllabus of this subject?
+
+- intent: sub_code
+  examples: |
+    - MA1001
+    - PH1001
+    - CE1000
+    - CH1400
+    - EC1000
+    - EE1000
+    - CY1101
+    - LS1001
+    - HS1300
+    - CS1000
+    - CE1701
+    - WS1151
+    - CY1170
+    - MA1002
+    - PH1002
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+

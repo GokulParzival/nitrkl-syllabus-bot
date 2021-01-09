@@ -1,0 +1,46 @@
+version: "2.0"
+
+intents:
+  - greet
+  - syllabus_quest
+  - goodbye
+  - sub_code
+  - bot_challenge
+
+responses:
+  utter_greet:
+    - text : "Hey! NITRi is here to assist you."
+
+  utter_sub_quest:
+    - text : "May I know the subject code you are looking for?"
+
+  utter_subject_name:
+    - text: "Subject name is {subject_name}"
+
+  utter_subject_syllabus:
+    - text: "Syllabus is {subject_syllabus}"
+
+  utter_subject_books:
+    - text: "Books recommended are {subject_books}"
+
+  utter_goodbye:
+    - text : "Bye! I hope I assisted you"
+
+
+  utter_iamabot:
+    - text: "I am a bot, powered by Rasa. My name is NITRi"
+
+actions:
+  - utter_greet
+  - utter_subject_name
+  - utter_subject_syllabus
+  - utter_subject_books
+  - utter_goodbye
+  - utter_iambot
+  - utter_sub_quest
+  - action_syllabus_api
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

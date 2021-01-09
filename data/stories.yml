@@ -1,0 +1,17 @@
+version: "2.0"
+
+stories:
+
+- story: subject finder
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: syllabus_quest
+    - action: utter_sub_quest
+    - intent: sub_code
+    - action: action_syllabus_api
+
+- story: say goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
