@@ -4,7 +4,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Instructions of starting chatbot in Telegram](#instructions-of-starting-chatbot-in-telegram)
-* [Illustartions](#illustartions)
+* [Illustrations](#illustrations)
 * [Features](#features)
 * [Issues](#issues)
 
@@ -80,7 +80,7 @@ Type any of the subject's code to know the syllabus
 The syllabus will be shown
 ```
 
-## Illustartions
+## Illustrations
 
 ![Illustration](./images/illustration.jpeg)
 
