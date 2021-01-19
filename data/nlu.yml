@@ -143,6 +143,60 @@ nlu:
     - BM4710
     - BM4714
     - BM4716
+    - CR2401
+    - CR2403
+    - CR2101
+    - CR2102
+    - CR2104
+    - CR2408
+    - CR2106
+    - CR3101
+    - CR3401
+    - CR3201
+    - CR3402
+    - CR3404
+    - CR3406
+    - CR4101
+    - CR4302
+    - CR2405
+    - CR2410
+    - CR2108
+    - CR3203
+    - CR3403
+    - CR3205
+    - CR3408
+    - CR3410
+    - CR3412
+    - CR4103
+    - CR4105
+    - CR4304
+    - CR4202
+    - CR3103
+    - CR3105
+    - CR3301
+    - CR3414
+    - CR3416
+    - CR3202
+    - CR4201
+    - CR4203
+    - CR4401
+    - CR4205
+    - CR4207
+    - CR4403
+    - CR4402
+    - CR4102
+    - CR4204
+    - CR4306
+    - CR4308
+    - CR4404
+    - CR0001
+    - CR0002
+    - CR0003
+    - CR0004
+    - CR0005
+    - CR0006
+    - CR0007
+    - CR0008
 
 - intent: goodbye
   examples: |
@@ -157,6 +211,9 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - thanks
+    - thank you
+    - tq
 
 - intent: bot_challenge
   examples: |
