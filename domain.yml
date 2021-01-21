@@ -18,10 +18,19 @@ responses:
     - text: "Subject name is {subject_name}"
 
   utter_subject_syllabus:
-    - text: "Syllabus is {subject_syllabus}"
+    - text: |-
+              Syllabus is:
+              {subject_syllabus}
 
   utter_subject_books:
-    - text: "Books recommended are {subject_books}"
+    - text: |-
+              Books recommended are:
+              {subject_books}
+
+  utter_subject_ref:
+    - text: |-
+              Supplementary books are:
+              {subject_ref}
 
   utter_goodbye:
     - text : "Bye! I hope I assisted you"
@@ -35,6 +44,7 @@ actions:
   - utter_subject_name
   - utter_subject_syllabus
   - utter_subject_books
+  - utter_subject_ref
   - utter_goodbye
   - utter_iambot
   - utter_sub_quest

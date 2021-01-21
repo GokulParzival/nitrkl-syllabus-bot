@@ -13,5 +13,6 @@ def syllabus_finder(s_code):
             sub_name = dictionary["Subject Name"]
             syl = dictionary['Syllabus']
             books = dictionary["Books"]
+            supp = dictionary["Supplementary"]
 
-    return sub_name, syl, books
+    return sub_name, syl, books, supp
