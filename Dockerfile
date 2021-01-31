@@ -6,7 +6,7 @@ COPY server.sh /app/server.sh
 USER root
 
 RUN pip install --upgrade pip
-RUN pip install rasa-x==0.32.2 --extra-index-url https://pypi.rasa.com/simple
+RUN pip install rasa
 RUN pip install spacy
 RUN pip install ujson
 RUN python -m spacy download en
