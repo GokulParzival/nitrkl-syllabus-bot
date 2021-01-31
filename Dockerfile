@@ -6,7 +6,7 @@ COPY server.sh /app/server.sh
 USER root
 
 RUN pip install --upgrade pip
-RUN pip install rasa
+RUN pip install --no-cache rasa==1.5.3
 RUN pip install spacy
 RUN pip install ujson
 RUN python -m spacy download en
