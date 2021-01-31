@@ -1,17 +1,10 @@
-FROM python:3.7-alpine
+FROM rasa/rasa:1.9.3
 
 COPY app /app
 COPY server.sh /app/server.sh
 
 USER root
 
-RUN pip install --upgrade pip
-RUN pip install --no-cache rasa==1.5.3
-RUN pip install spacy
-RUN pip install ujson
-RUN python -m spacy download en
-RUN python -m spacy download en_core_web_md
-RUN python -m spacy link en_core_web_md en
 RUN rasa train
 RUN chmod a+rwx /app/server.sh
 
