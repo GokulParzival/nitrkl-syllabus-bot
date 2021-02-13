@@ -11,7 +11,7 @@ from typing import Any, Text, Dict, List
 
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
-from app.syllabus_bot import syllabus_finder
+from syllabus_bot import syllabus_finder
 
 
 class ActionHelloWorld(Action):
