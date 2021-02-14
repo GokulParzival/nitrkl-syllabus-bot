@@ -1,4 +1,7 @@
-# NITRi <img src="./images/12.png" width="5%"> 
+# NITRi 
+
+<img src="./images/nitri_logo.png" width="25%"> 
+
 A chatbot to help students know the syllabus of courses taken by them at NIT Rourkela/.
  ## Table of contents
 * [General info](#general-info)
