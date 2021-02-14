@@ -85,7 +85,7 @@ The syllabus will be shown
 
 ## Illustrations
 
-![Illustration](./images/illustration.jpeg)
+![Illustration](./images/Screenshot.jpeg)
 
 ## Features
 ### Todo
