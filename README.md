@@ -2,7 +2,7 @@
 
 <img src="./images/nitri_logo.png" width="25%"> 
 
-A chatbot to help students know the syllabus of courses taken by them at NIT Rourkela/.
+A chatbot to help students know the syllabus of courses taken by them at NIT Rourkela.
  ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
